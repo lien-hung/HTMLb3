@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 12</title>
+</head>
+<body>
+    <form>
+        <ul>
+            <li>
+                <label for="username">Username:</label>
+                <input type="text" name="inpUsername" id="username" required minlength="4" maxlength="30">
+            </li>
+            <li>
+                <label for="password">Password:</label>
+                <input type="password" name="inpPassword" id="password">
+            </li>
+            <li>
+                <label for="province">Tỉnh:</label>
+                <select name="selProvince" id="province" size="3">
+                    <option value="HCM">HCM</option>
+                    <option value="VT">Vũng Tàu</option>
+                    <option value="BD">Bình Dương</option>
+                    <option value="Khác">Khác</option>
+                </select>
+            </li>
+            <li>
+                <label for="email">Email:</label>
+                <input type="email" name="inpEmail" id="email" autofocus>
+            </li>
+            <li>
+                <label for="website">Website:</label>
+                <input type="url" name="inpWebsite" id="website">
+            </li>
+            <li>
+                <label for="gender">Giới tính:</label>
+                <input type="radio" name="rdoMale" id="male">
+                <label for="male">Nam</label>
+                <input type="radio" name="rdoFemale" id="female">
+                <label for="female">Nữ</label>
+            </li>
+            <li>
+                <label for="birthday">Ngày sinh:</label>
+                <input type="date" name="inpBirthday" id="birthday" min="2023-01-01">
+            </li>
+            <li>
+                <label for="score">Điểm:</label>
+                <input type="number" name="inpScore" id="score" min="0" max="10" step="0.5">
+            </li>
+            <li>
+                <label for="color">Màu yêu thích:</label>
+                <input type="color" name="inpColor" id="color">
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
